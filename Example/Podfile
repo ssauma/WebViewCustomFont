@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WebViewCustomFont_Example' do
+  pod 'WebViewCustomFont', :path => '../'
+
+  target 'WebViewCustomFont_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
