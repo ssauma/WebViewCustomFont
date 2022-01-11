@@ -36,7 +36,7 @@ pod 'WebViewCustomFont'
 
 ## Author
 
-Juyeon Lee, juyeonlee@timerit.com
+Juyeon Lee, juyeonlee@me.com
 
 ## License
 
