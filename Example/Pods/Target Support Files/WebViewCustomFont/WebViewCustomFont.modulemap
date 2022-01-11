@@ -1,0 +1,6 @@
+framework module WebViewCustomFont {
+  umbrella header "WebViewCustomFont-umbrella.h"
+
+  export *
+  module * { export * }
+}
