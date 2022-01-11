@@ -16,7 +16,6 @@
 		AB062C97526B455E8EAB20F7B33EB352 /* WebViewCustomFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0D4704675E36DCDB9114C27E38B2C8 /* WebViewCustomFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD757BA9BBDAD60D75620616EBA3868B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D365291ED1751C5A5BD86A028FFBD362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F551F719278D3F5E0004F7C3 /* WebViewCustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551F718278D3F5E0004F7C3 /* WebViewCustomFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 		E90D767A446D0DDBDA2DA63F318124C9 /* Pods-WebViewCustomFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewCustomFont_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EDB57A0A9EF3084D0A5F69EEE5B76CFF /* Pods-WebViewCustomFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebViewCustomFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F1EC2DC30F1AE800EA715C441EF174B0 /* Pods-WebViewCustomFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewCustomFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F551F718278D3F5E0004F7C3 /* WebViewCustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCustomFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,7 +213,6 @@
 		DEB49A62C09C146D7120AFDE3D3AF6D8 /* WebViewCustomFont */ = {
 			isa = PBXGroup;
 			children = (
-				F551F718278D3F5E0004F7C3 /* WebViewCustomFont.swift */,
 				8F0B1B515F2E46384E97D62DE2E0279C /* Pod */,
 				723F55FA3FE7276FB1BDB9CB9DA852AB /* Support Files */,
 			);
@@ -383,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F551F719278D3F5E0004F7C3 /* WebViewCustomFont.swift in Sources */,
 				4AE18D716E251442AB6561A3B7D65E97 /* WebViewCustomFont-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
