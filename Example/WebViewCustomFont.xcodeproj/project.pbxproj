@@ -45,7 +45,7 @@
 		607FACE51AFB9204008FA782 /* WebViewCustomFont_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewCustomFont_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9D84E1670A70CF33F9AE2476 /* WebViewCustomFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebViewCustomFont.podspec; path = ../WebViewCustomFont.podspec; sourceTree = "<group>"; };
+		9D84E1670A70CF33F9AE2476 /* WebViewCustomFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebViewCustomFont.podspec; path = ../WebViewCustomFont.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9B72664B0FCEF38010487F1 /* Pods_WebViewCustomFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewCustomFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEDA51213B379F570EA5C7C /* Pods-WebViewCustomFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewCustomFont_Tests.release.xcconfig"; path = "Target Support Files/Pods-WebViewCustomFont_Tests/Pods-WebViewCustomFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C5906559759482260D18A6BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -497,7 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -513,7 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
