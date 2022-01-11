@@ -1,0 +1,16 @@
+PODS:
+  - WebViewCustomFont (0.1.0)
+
+DEPENDENCIES:
+  - WebViewCustomFont (from `../`)
+
+EXTERNAL SOURCES:
+  WebViewCustomFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WebViewCustomFont: 5839975d56d1b0d2e6e8b012651cf3ce5b9bcdf8
+
+PODFILE CHECKSUM: ac49169c61216245b61014f0d354f07951c98f2a
+
+COCOAPODS: 1.11.2

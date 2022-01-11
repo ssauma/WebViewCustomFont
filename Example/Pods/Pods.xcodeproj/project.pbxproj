@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E93C5802E38A137FE2D78EF95F56C0 /* Pods-WebViewCustomFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913BFE1FEEA13BF5B5A6E2D328B849B8 /* Pods-WebViewCustomFont_Tests-dummy.m */; };
+		4AE18D716E251442AB6561A3B7D65E97 /* WebViewCustomFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC12C44FC9996E1E42CE7C534BA3761 /* WebViewCustomFont-dummy.m */; };
+		50BBA045A26006A8480098D77083DCF4 /* Pods-WebViewCustomFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0721B19B3D3563E5A871551D6FE1CFA /* Pods-WebViewCustomFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1DFE6D990C3B00B080B04A6061E3784 /* Pods-WebViewCustomFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DABBB4D9B4BB807F53B63A618C51AB9 /* Pods-WebViewCustomFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F28A3E69941F301D5DEB10ECE9C99E /* Pods-WebViewCustomFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2821487404D426F294CE611085F105BC /* Pods-WebViewCustomFont_Example-dummy.m */; };
+		A9BDEA53A88BEF942D18998B76D882BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AB062C97526B455E8EAB20F7B33EB352 /* WebViewCustomFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0D4704675E36DCDB9114C27E38B2C8 /* WebViewCustomFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD757BA9BBDAD60D75620616EBA3868B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D365291ED1751C5A5BD86A028FFBD362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F551F719278D3F5E0004F7C3 /* WebViewCustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551F718278D3F5E0004F7C3 /* WebViewCustomFont.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64F22AC72CC0937993CAF84980C00F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FD2A43D53E395972B8A06391397EA28;
+			remoteInfo = "Pods-WebViewCustomFont_Example";
+		};
+		B779CAB38AF577BF5B24A8EC69C34220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92790894B7BD72031321956BCEA63F9;
+			remoteInfo = WebViewCustomFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BD6CCEC222E7ACB3FC2418D6096995 /* WebViewCustomFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WebViewCustomFont-Info.plist"; sourceTree = "<group>"; };
+		0AC12C44FC9996E1E42CE7C534BA3761 /* WebViewCustomFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewCustomFont-dummy.m"; sourceTree = "<group>"; };
+		0D1FCE708F90E48C0418A044DC6EBE42 /* Pods-WebViewCustomFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebViewCustomFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1256AA638CDF01A075CA588011D97338 /* Pods-WebViewCustomFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewCustomFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		167067CDC3C7129F75AB7C8881EBEFC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2821487404D426F294CE611085F105BC /* Pods-WebViewCustomFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebViewCustomFont_Example-dummy.m"; sourceTree = "<group>"; };
+		28A6769F00C05E534922D1817E5D2FEB /* Pods-WebViewCustomFont_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WebViewCustomFont_Tests"; path = Pods_WebViewCustomFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C890F0D8D4814ED43B581B242DD79B0 /* Pods-WebViewCustomFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebViewCustomFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FB59136F9DAFCB5413189E5532866E4 /* Pods-WebViewCustomFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebViewCustomFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35030E4B8F0DDD70C345D9CD3C9DADAD /* WebViewCustomFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WebViewCustomFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46A3F27D246299D6DB2399CD09C6C4C7 /* Pods-WebViewCustomFont_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebViewCustomFont_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78374214339C32CA9B2AC240A87A0DB9 /* Pods-WebViewCustomFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewCustomFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7A1D383820792F8BCEE3D517153053B9 /* Pods-WebViewCustomFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebViewCustomFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B7271A09F0ABE207E082C3103730CF1 /* Pods-WebViewCustomFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WebViewCustomFont_Tests.modulemap"; sourceTree = "<group>"; };
+		86B278014D99D15611A056E1D4E3A991 /* WebViewCustomFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WebViewCustomFont.modulemap; sourceTree = "<group>"; };
+		8C6C7F68476B4C065DC1110F04ECBBC1 /* WebViewCustomFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewCustomFont.debug.xcconfig; sourceTree = "<group>"; };
+		8DABBB4D9B4BB807F53B63A618C51AB9 /* Pods-WebViewCustomFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WebViewCustomFont_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8EE8C62A7F087E0B29A25A57B1D322A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		913BFE1FEEA13BF5B5A6E2D328B849B8 /* Pods-WebViewCustomFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebViewCustomFont_Tests-dummy.m"; sourceTree = "<group>"; };
+		95C199CCAF01E808F77853F65CF45B02 /* WebViewCustomFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewCustomFont-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4C2D242A56794D4438B7DFA91D1E017 /* WebViewCustomFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewCustomFont.release.xcconfig; sourceTree = "<group>"; };
+		AB0D4704675E36DCDB9114C27E38B2C8 /* WebViewCustomFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewCustomFont-umbrella.h"; sourceTree = "<group>"; };
+		B0721B19B3D3563E5A871551D6FE1CFA /* Pods-WebViewCustomFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WebViewCustomFont_Example-umbrella.h"; sourceTree = "<group>"; };
+		B666587A0EF2C5B970FD5701FCDCA5F4 /* Pods-WebViewCustomFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WebViewCustomFont_Example.modulemap"; sourceTree = "<group>"; };
+		CFC14FB0694664B647522A0FE284120C /* Pods-WebViewCustomFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebViewCustomFont_Example-Info.plist"; sourceTree = "<group>"; };
+		D612A6F58B040F7C0736BE9D555D1E65 /* Pods-WebViewCustomFont_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WebViewCustomFont_Example"; path = Pods_WebViewCustomFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E016C45C8257996C40BFBE8FB5F97C82 /* WebViewCustomFont */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewCustomFont; path = WebViewCustomFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90D767A446D0DDBDA2DA63F318124C9 /* Pods-WebViewCustomFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewCustomFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EDB57A0A9EF3084D0A5F69EEE5B76CFF /* Pods-WebViewCustomFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebViewCustomFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1EC2DC30F1AE800EA715C441EF174B0 /* Pods-WebViewCustomFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewCustomFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F551F718278D3F5E0004F7C3 /* WebViewCustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCustomFont.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF0131461E6F19E3DDA309A1D19878D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D365291ED1751C5A5BD86A028FFBD362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A5E2AC406FB1054EBD8212F1A53913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD757BA9BBDAD60D75620616EBA3868B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C064D95C0CAA923A3E1CC35A7C4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BDEA53A88BEF942D18998B76D882BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E75D5CD9AD6C9EC3FADF52C68ECC329 /* Pods-WebViewCustomFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B666587A0EF2C5B970FD5701FCDCA5F4 /* Pods-WebViewCustomFont_Example.modulemap */,
+				2FB59136F9DAFCB5413189E5532866E4 /* Pods-WebViewCustomFont_Example-acknowledgements.markdown */,
+				EDB57A0A9EF3084D0A5F69EEE5B76CFF /* Pods-WebViewCustomFont_Example-acknowledgements.plist */,
+				2821487404D426F294CE611085F105BC /* Pods-WebViewCustomFont_Example-dummy.m */,
+				0D1FCE708F90E48C0418A044DC6EBE42 /* Pods-WebViewCustomFont_Example-frameworks.sh */,
+				CFC14FB0694664B647522A0FE284120C /* Pods-WebViewCustomFont_Example-Info.plist */,
+				B0721B19B3D3563E5A871551D6FE1CFA /* Pods-WebViewCustomFont_Example-umbrella.h */,
+				1256AA638CDF01A075CA588011D97338 /* Pods-WebViewCustomFont_Example.debug.xcconfig */,
+				E90D767A446D0DDBDA2DA63F318124C9 /* Pods-WebViewCustomFont_Example.release.xcconfig */,
+			);
+			name = "Pods-WebViewCustomFont_Example";
+			path = "Target Support Files/Pods-WebViewCustomFont_Example";
+			sourceTree = "<group>";
+		};
+		51DD69F9AF76BD3BD0CEB696032202E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E75D5CD9AD6C9EC3FADF52C68ECC329 /* Pods-WebViewCustomFont_Example */,
+				CF613508E3A47EB392C62C0CD1C6923A /* Pods-WebViewCustomFont_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		723F55FA3FE7276FB1BDB9CB9DA852AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86B278014D99D15611A056E1D4E3A991 /* WebViewCustomFont.modulemap */,
+				0AC12C44FC9996E1E42CE7C534BA3761 /* WebViewCustomFont-dummy.m */,
+				03BD6CCEC222E7ACB3FC2418D6096995 /* WebViewCustomFont-Info.plist */,
+				95C199CCAF01E808F77853F65CF45B02 /* WebViewCustomFont-prefix.pch */,
+				AB0D4704675E36DCDB9114C27E38B2C8 /* WebViewCustomFont-umbrella.h */,
+				8C6C7F68476B4C065DC1110F04ECBBC1 /* WebViewCustomFont.debug.xcconfig */,
+				A4C2D242A56794D4438B7DFA91D1E017 /* WebViewCustomFont.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WebViewCustomFont";
+			sourceTree = "<group>";
+		};
+		76A82BC53C926B7598B3B06AF733EF14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D612A6F58B040F7C0736BE9D555D1E65 /* Pods-WebViewCustomFont_Example */,
+				28A6769F00C05E534922D1817E5D2FEB /* Pods-WebViewCustomFont_Tests */,
+				E016C45C8257996C40BFBE8FB5F97C82 /* WebViewCustomFont */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0B1B515F2E46384E97D62DE2E0279C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				167067CDC3C7129F75AB7C8881EBEFC3 /* LICENSE */,
+				8EE8C62A7F087E0B29A25A57B1D322A5 /* README.md */,
+				35030E4B8F0DDD70C345D9CD3C9DADAD /* WebViewCustomFont.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9BCE42986D007A6A7462F3A8F52182FE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49A62C09C146D7120AFDE3D3AF6D8 /* WebViewCustomFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9BCE42986D007A6A7462F3A8F52182FE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				76A82BC53C926B7598B3B06AF733EF14 /* Products */,
+				51DD69F9AF76BD3BD0CEB696032202E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF613508E3A47EB392C62C0CD1C6923A /* Pods-WebViewCustomFont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B7271A09F0ABE207E082C3103730CF1 /* Pods-WebViewCustomFont_Tests.modulemap */,
+				2C890F0D8D4814ED43B581B242DD79B0 /* Pods-WebViewCustomFont_Tests-acknowledgements.markdown */,
+				7A1D383820792F8BCEE3D517153053B9 /* Pods-WebViewCustomFont_Tests-acknowledgements.plist */,
+				913BFE1FEEA13BF5B5A6E2D328B849B8 /* Pods-WebViewCustomFont_Tests-dummy.m */,
+				46A3F27D246299D6DB2399CD09C6C4C7 /* Pods-WebViewCustomFont_Tests-Info.plist */,
+				8DABBB4D9B4BB807F53B63A618C51AB9 /* Pods-WebViewCustomFont_Tests-umbrella.h */,
+				F1EC2DC30F1AE800EA715C441EF174B0 /* Pods-WebViewCustomFont_Tests.debug.xcconfig */,
+				78374214339C32CA9B2AC240A87A0DB9 /* Pods-WebViewCustomFont_Tests.release.xcconfig */,
+			);
+			name = "Pods-WebViewCustomFont_Tests";
+			path = "Target Support Files/Pods-WebViewCustomFont_Tests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB49A62C09C146D7120AFDE3D3AF6D8 /* WebViewCustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				F551F718278D3F5E0004F7C3 /* WebViewCustomFont.swift */,
+				8F0B1B515F2E46384E97D62DE2E0279C /* Pod */,
+				723F55FA3FE7276FB1BDB9CB9DA852AB /* Support Files */,
+			);
+			name = WebViewCustomFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53405C9F1BF1A3328C57FEAA7561F48B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB062C97526B455E8EAB20F7B33EB352 /* WebViewCustomFont-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F70A09B2917D78C54143E51428F31D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BBA045A26006A8480098D77083DCF4 /* Pods-WebViewCustomFont_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B47D8D0AF7616639E453286664FE9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DFE6D990C3B00B080B04A6061E3784 /* Pods-WebViewCustomFont_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F060ED1BE24D48B510AAA42C180FB3B /* Pods-WebViewCustomFont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6EFA70599C03DD5D94A97B8D6BA06A /* Build configuration list for PBXNativeTarget "Pods-WebViewCustomFont_Tests" */;
+			buildPhases = (
+				E3B47D8D0AF7616639E453286664FE9C /* Headers */,
+				D5C437691137EA8C7877CCC55ABE1645 /* Sources */,
+				61A5E2AC406FB1054EBD8212F1A53913 /* Frameworks */,
+				8A52D8805B4D543F6ADD38DA574FC307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C234E9F896010598BDEC78C4FEF023D /* PBXTargetDependency */,
+			);
+			name = "Pods-WebViewCustomFont_Tests";
+			productName = Pods_WebViewCustomFont_Tests;
+			productReference = 28A6769F00C05E534922D1817E5D2FEB /* Pods-WebViewCustomFont_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FD2A43D53E395972B8A06391397EA28 /* Pods-WebViewCustomFont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA3744C6AB03F9B3535ECAF3E7687FD /* Build configuration list for PBXNativeTarget "Pods-WebViewCustomFont_Example" */;
+			buildPhases = (
+				E2F70A09B2917D78C54143E51428F31D /* Headers */,
+				D257C1FAF9348A3BC897C1E6C3351D6D /* Sources */,
+				EB8C064D95C0CAA923A3E1CC35A7C4BC /* Frameworks */,
+				2F40DD9EBF22685E2C24625AF27D79F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B65E81D72CB709FE4E5C09D7A15FDFF /* PBXTargetDependency */,
+			);
+			name = "Pods-WebViewCustomFont_Example";
+			productName = Pods_WebViewCustomFont_Example;
+			productReference = D612A6F58B040F7C0736BE9D555D1E65 /* Pods-WebViewCustomFont_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F92790894B7BD72031321956BCEA63F9 /* WebViewCustomFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6621C31292E61187A19177A6DE1C549D /* Build configuration list for PBXNativeTarget "WebViewCustomFont" */;
+			buildPhases = (
+				53405C9F1BF1A3328C57FEAA7561F48B /* Headers */,
+				D6E3C91C96919F28B761125386B690F8 /* Sources */,
+				4CF0131461E6F19E3DDA309A1D19878D /* Frameworks */,
+				549727F45CB62B1565C5F427F4E03B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewCustomFont;
+			productName = WebViewCustomFont;
+			productReference = E016C45C8257996C40BFBE8FB5F97C82 /* WebViewCustomFont */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 76A82BC53C926B7598B3B06AF733EF14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD2A43D53E395972B8A06391397EA28 /* Pods-WebViewCustomFont_Example */,
+				1F060ED1BE24D48B510AAA42C180FB3B /* Pods-WebViewCustomFont_Tests */,
+				F92790894B7BD72031321956BCEA63F9 /* WebViewCustomFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F40DD9EBF22685E2C24625AF27D79F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549727F45CB62B1565C5F427F4E03B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A52D8805B4D543F6ADD38DA574FC307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D257C1FAF9348A3BC897C1E6C3351D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F28A3E69941F301D5DEB10ECE9C99E /* Pods-WebViewCustomFont_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C437691137EA8C7877CCC55ABE1645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E93C5802E38A137FE2D78EF95F56C0 /* Pods-WebViewCustomFont_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3C91C96919F28B761125386B690F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F551F719278D3F5E0004F7C3 /* WebViewCustomFont.swift in Sources */,
+				4AE18D716E251442AB6561A3B7D65E97 /* WebViewCustomFont-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B65E81D72CB709FE4E5C09D7A15FDFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewCustomFont;
+			target = F92790894B7BD72031321956BCEA63F9 /* WebViewCustomFont */;
+			targetProxy = B779CAB38AF577BF5B24A8EC69C34220 /* PBXContainerItemProxy */;
+		};
+		4C234E9F896010598BDEC78C4FEF023D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WebViewCustomFont_Example";
+			target = 3FD2A43D53E395972B8A06391397EA28 /* Pods-WebViewCustomFont_Example */;
+			targetProxy = 64F22AC72CC0937993CAF84980C00F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10BA38BB50A087606DEBC097E2A8AF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1256AA638CDF01A075CA588011D97338 /* Pods-WebViewCustomFont_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebViewCustomFont_Example/Pods-WebViewCustomFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebViewCustomFont_Example/Pods-WebViewCustomFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		354B13F5739CD3C383D2C9A7F633BC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90D767A446D0DDBDA2DA63F318124C9 /* Pods-WebViewCustomFont_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebViewCustomFont_Example/Pods-WebViewCustomFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebViewCustomFont_Example/Pods-WebViewCustomFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45AA6F25449744A1CC2238B64E55A940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EC2DC30F1AE800EA715C441EF174B0 /* Pods-WebViewCustomFont_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebViewCustomFont_Tests/Pods-WebViewCustomFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebViewCustomFont_Tests/Pods-WebViewCustomFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A70BAA14F5BDA39AED9A0E9AFE93604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78374214339C32CA9B2AC240A87A0DB9 /* Pods-WebViewCustomFont_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebViewCustomFont_Tests/Pods-WebViewCustomFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebViewCustomFont_Tests/Pods-WebViewCustomFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE06A886811D8B8ED241461978955C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C2D242A56794D4438B7DFA91D1E017 /* WebViewCustomFont.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewCustomFont/WebViewCustomFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebViewCustomFont/WebViewCustomFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebViewCustomFont/WebViewCustomFont.modulemap";
+				PRODUCT_MODULE_NAME = WebViewCustomFont;
+				PRODUCT_NAME = WebViewCustomFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EC5ADCDD0EB1565BE5B0553D238B16C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6C7F68476B4C065DC1110F04ECBBC1 /* WebViewCustomFont.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewCustomFont/WebViewCustomFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebViewCustomFont/WebViewCustomFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebViewCustomFont/WebViewCustomFont.modulemap";
+				PRODUCT_MODULE_NAME = WebViewCustomFont;
+				PRODUCT_NAME = WebViewCustomFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6621C31292E61187A19177A6DE1C549D /* Build configuration list for PBXNativeTarget "WebViewCustomFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5ADCDD0EB1565BE5B0553D238B16C7 /* Debug */,
+				AE06A886811D8B8ED241461978955C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6EFA70599C03DD5D94A97B8D6BA06A /* Build configuration list for PBXNativeTarget "Pods-WebViewCustomFont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AA6F25449744A1CC2238B64E55A940 /* Debug */,
+				6A70BAA14F5BDA39AED9A0E9AFE93604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA3744C6AB03F9B3535ECAF3E7687FD /* Build configuration list for PBXNativeTarget "Pods-WebViewCustomFont_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BA38BB50A087606DEBC097E2A8AF4E /* Debug */,
+				354B13F5739CD3C383D2C9A7F633BC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
