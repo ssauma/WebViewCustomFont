@@ -1,17 +1,31 @@
 # WebViewCustomFont
 
-[![CI Status](https://img.shields.io/travis/Juyeon Lee/WebViewCustomFont.svg?style=flat)](https://travis-ci.org/Juyeon Lee/WebViewCustomFont)
-[![Version](https://img.shields.io/cocoapods/v/WebViewCustomFont.svg?style=flat)](https://cocoapods.org/pods/WebViewCustomFont)
-[![License](https://img.shields.io/cocoapods/l/WebViewCustomFont.svg?style=flat)](https://cocoapods.org/pods/WebViewCustomFont)
-[![Platform](https://img.shields.io/cocoapods/p/WebViewCustomFont.svg?style=flat)](https://cocoapods.org/pods/WebViewCustomFont)
+WKWebView extension to addScript for inject a custom font-face
 
-## Example
+```swift
+webView.injectScript(fontFileName: "Pecita", type: .otf, fontFamilyName: "pecita")
+webView.injectScript(fontFileName: "zagreb_underground", type: .ttf, fontFamilyName: "zagreb")
+```
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![example screenshot](./screenshot.png)
 
 ## Requirements
 
-## Installation
+iOS 11
+
+## Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but Alamofire does support its use on supported platforms.
+
+Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/ssauma/WebViewCustomFont.git", .upToNextMajor(from: "0.1.0"))
+]
+```
+
+## CocoaPods
 
 WebViewCustomFont is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -22,7 +36,7 @@ pod 'WebViewCustomFont'
 
 ## Author
 
-Juyeon Lee, juyeonlee@me.com
+Juyeon Lee, juyeonlee@timerit.com
 
 ## License
 
